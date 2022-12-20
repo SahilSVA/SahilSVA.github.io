@@ -1,913 +1,822 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Home Page</title>
-    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>CSS Main Project</title>
+    <link rel="stylesheet" type="text/css" href="Style.css">
     <link rel="stylesheet" type="text/css" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-        <div class="fixed-top">
-        <div class="row nav1_row">
-                <div class="col-4 col-lg-4 col-md-12 col-sm-12 nv">
-                    <p class="p_nav1"><i class="fa fa-headphones fa-lg headphones" aria-hidden="true"></i> Toll Free: +1-888-456-78-901</p>
-                </div>
-                <div class="col-8 col-lg-8 col-md-12 col-sm-12 nv">
-                    <div class="row">
-                        <div class="nav1_part2">
-                        <p class=p1_nav1>Follow On</p>
-                        <div class="fb_icon"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
-                        <div class="twt"><i class="fa fa-twitter" aria-hidden="true"></i></div>
-                        <div class="vine"><i class="fa fa-vine" aria-hidden="true"></i></div>
-                        <div class="hl"></div>
-                        <input type="text" placeholder="Search..." class="input1">
-                        <i class="fa fa-search fa-lg glass" aria-hidden="true"></i>
-                    </div>
-                    </div>
-                </div>
+    <!--Section1-->
+    <div class="background">
+        <div class="header">
+            <div class="logo">
+                <img src="Images/logo-dark.png">
             </div>
 
-            
+            <div class="navbar">
+                <ul class="ul_css">
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="Blog.html">Blog</a></li>
+                    <li><a href="Aboutus.html">About us</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="sign_up">
+                <div class="icon_nav"><i class="fa fa-user-o signup_icon" aria-hidden="true"></i></div>
+                <div class="p_nav">Sign up</div>
+            </div>
+
             <div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar2">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#"><img src="Images/d-b-logo.png" width="350px" height="90px" class="logo_css"></a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="offcanvas offcanvas-end oc_bg" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                                <div class="offcanvas-header">
-                                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
-                                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                </div>
-                                <div class="offcanvas-body">
-                                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                        <li class="nav-item">
-                                                <a class="nav-link active home_css" aria-current="page" href="Home.html">HOME</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                <a class="nav-link link_css" href="About.html">ABOUT</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                    <a class="nav-link link_css" href="India.html">INDIA</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                    <a class="nav-link link_css" href="Contact.html">CONTACT</a>
-                                              </li>
-                                              <li class="nav-item">
-                                                    <a class="nav-link link1_css" href="Blog.html">BLOG</a>
-                                              </li>
-                                  </ul>
-                                  <form class="d-flex">
-                                        <button class="btn btn-outline-success user_border" type="submit"><i class="fa fa-user-o fa-lg user" aria-hidden="true"></i></button>
-                                        <button class="btn btn-outline-success enquiry_btn" type="submit">ENQUIRY ></button>
-                                      </form>
-                                </div>
-                              </div>
-                            </div>
-                          </nav>
-                          
-                      <!--<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>-->
-                      <!--<div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active home_css" aria-current="page" href="#">HOME</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link link_css" href="#">ABOUT</a>
-                          </li>
-                          <li class="nav-item">
-                                <a class="nav-link link_css" href="#">INDIA</a>
-                          </li>
-                          <li class="nav-item">
-                                <a class="nav-link link_css" href="#">CONTACT</a>
-                          </li>
-                          <li class="nav-item">
-                                <a class="nav-link link_css" href="#">BLOG</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <button class="btn btn-outline-success user_border" type="submit"><i class="fa fa-user-o fa-lg user" aria-hidden="true"></i></button>
-                          <button class="btn btn-outline-success enquiry_btn" type="submit">ENQUIRY ></button>
-                        </form>
-                      </div>-->
-                    </div>
-                  </nav>
-                  </div>
-                  </div>
-
-
-
-      <!--Home Page Section 2-->
-      <div id="carouselExampleCaptions" class="carousel slide carousel-fade ch_sec2" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="car1">
-              <img src="Images/banner-4.jpg" class="d-block w-150 h-100" alt="..." class="banner">
-              <div class="row car1_overlay">
-                <div class="col-8 col-lg-8 col-md-6 col-sm-6 bannerbdr1">
-                  <h1 class="immi_banner">IMMIGO</h1>
-                  <h1 class="immi_banner1">A LEADING MIGRATION AGENCY IN UNITED STATES</h1>
-                  <p class="p_immibanner">Denounce with righteous Indignation and dislike men who are begulled and demoralized by the charms.</p>
-                  <button class="more_details">MORE DETAILS ></button>
-                </div>
-                <div class="col-4 bannerbdr2">
-                  
-                  </div>
-              </div>
-              </div>
+                <button class="button_nav"><i class="fa fa-plus button_icon" aria-hidden="true"></i> <p class="p_button">Add Listing</p></button>
             </div>
-            <div class="carousel-item">
-                <div class="car1">
-                    <img src="Images/banner-5.jpg" class="d-block w-150 h-100" alt="..." class="banner">
-                    <div class="row car1_overlay">
-                      <div class="col-8 col-lg-8 col-md-6 col-sm-6 bannerbdr1">
-                        <h1 class="immi_banner">IMAGINE</h1>
-                        <h1 class="immi_banner1">A BETTER FUTURE & WE MAKE IT HAPPEN TODAY</h1>
-                        <p class="p_immibanner">Denounce with righteous Indignation and dislike men who are begulled and demoralized by the charms.</p>
-                        <button class="more_details">MORE DETAILS ></button>
-                      </div>
-                      <div class="col-4 bannerbdr2">
-                        
+       </div>
+
+       <div class="section1_body">
+           <div class="bgimg">
+           <div class="img_bg">
+                <div><i class="fa fa-plus plus1 fa-5x" aria-hidden="true"></i></div>
+                <div><img src="Images/plus-symbol-button (1).png" width="150px" height="150px" class="plus2"></div>
+                <div><img src="Images/plus-symbol-button (1).png" width="200px" height="200px" class="plus3"></div>
+                <div class="doc_img"><img src="Images/doctor.png" height="740px"></div>
+           </div>
+           <div><i class="fa fa-plus fa-5x plus4" aria-hidden="true"></i></div>
+           </div>
+
+           <div class="section1_text">
+               <h1 class="h1_section1">Your Trust is Our</h1>
+               <h1 class="h1_section1">Greatest <span>Incentive</span>!</h1>
+               <p class="p_section1">There are many variations of passages of worem Ipsum available, but the</p>
+               <p class="p_section1">majority have suffered alteration in some form,</p>
+               <div class="four_boxes">
+                   <div class="two_boxes">
+                        <div class="first_box">
+                            <div><img src="Images/icon1.png"></div>
+                            <div class="two_p">
+                            <p class="p_1b">Doctor</p>
+                            <p class="p_1b1">Book an appointment</p>
+                            </div>
+                        </div>
+                        <div class="second_box">
+                            <div><img src="Images/icon2.png"></div>
+                            <div class="two_p">
+                            <p class="p_1b">Consult</p>
+                            <p class="p_1b1">Consult with top doctors</p>
+                            </div>
+                        </div>
+                   </div>
+                   <div class="two_boxes1">
+                        <div class="first_box">
+                            <div><img src="Images/icon3.png"></div>
+                            <div class="two_p">
+                            <p class="p_1b">Pharmacy</p>
+                            <p class="p_1b1">Medicines & health products</p>
+                            </div>
+                        </div>
+                        <div class="fourth_box">
+                            <div><img src="Images/icon4.png"></div>
+                            <div class="two_p">
+                            <p class="p_1b">Diagnostics</p>
+                            <p class="p_1b1">Book tests & Check Ups</p>
+                            </div>
                         </div>
                     </div>
+               </div>
+           </div>
+       </div>
+
+       <div class="section1_form">
+           <div class="action">
+               <div class="lg_circle">
+                    <i class="fa fa-plus-square-o plus_square" aria-hidden="true"></i>
+               </div>
+               <div class="text_form">
+                   <div><p class="p_form">Action</p></div>
+                   <div class="action_select">
+                   <select class="select_css">
+                       <option class="opt1">Hospital</option>
+                       <option>Clinic</option>
+                       <option>Doctor</option>
+                       <option>Medical</option>
+                   </select>
+                   </div>
+               </div>
+           </div>
+
+           <div class="date">
+                <div class="lg_circle">
+                    <i class="fa fa-map-marker location_circle" aria-hidden="true"></i>
+                </div>
+                <div class="text_form">
+                    <div><p class="p_form">Date</p></div>
+                    <div class="action_select">
+                    <select class="select_css">
+                        <option>Country</option>
+                        <option>India</option>
+                        <option>Japan</option>
+                        <option>USA</option>
+                    </select>
                     </div>
-          
+                </div>
             </div>
-            <div class="carousel-item">
-              <img src="Images/banner-6.jpg" class="d-block w-100" alt="...">
-              <div class="row car1_overlay">
-                  <div class="col-8 col-lg-8 col-md-6 col-sm-6 bannerbdr1">
-                      <h1 class="immi_banner">LOOKING</h1>
-                      <h1 class="immi_banner1">TO SETTLE IN THE WORLD'S BEST COUNTRIES</h1>
-                      <p class="p_immibanner">Denounce with righteous Indignation and dislike men who are begulled and demoralized by the charms.</p>
-                      <button class="more_details">MORE DETAILS ></button>
+
+            <div class="date">
+                    <div class="lg_circle">
+                        <i class="fa fa-map-marker location_circle" aria-hidden="true"></i>
                     </div>
-                    <div class="col-4 bannerbdr2">
-                      
-                      </div>
-              </div>
+                    <div class="text_form">
+                        <div><p class="p_form">Country</p></div>
+                        <div class="action_select">
+                        <select class="select_css">
+                            <option>City</option>
+                            <option>India</option>
+                            <option>Japan</option>
+                            <option>USA</option>
+                        </select>
+                        </div>
+                    </div>
             </div>
-          </div>
-          <button class="carousel-control-prev prev_css" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next next_css" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+
+            <div class="date">
+                    <div class="lg_circle">
+                        <i class="fa fa-map-marker location_circle" aria-hidden="true"></i>
+                    </div>
+                    <div class="text_form">
+                        <div><p class="p_form">City</p></div>
+                        <div class="action_select">
+                        <select class="select_css">
+                            <option>Select Location</option>
+                            <option>India</option>
+                            <option>Japan</option>
+                            <option>USA</option>
+                        </select>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="form_button">
+                    <button class="button_form"> <p class="p_button2">Search</p></button>
+            </div>
+        </div>
+
+        <div class="form_tab">
+                <div class="tab_icon">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                </div>
+                <div>
+                    <p class="tab_text">Hospital</p>
+                </div>
+        </div>
+
+    </div>
+    <!--Section1-->
+
+    <!--Section-2-->
+    <div class="section2">
+        <div class="section2_text">
+            <p class="p_section2">TEAM</p>
+            <h1 class="h1_section2">Top Rated Doctors</h1>
+            <p class="p1_section2">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text</p>
+            <p class="p1_section2">ever since the when an printer took.</p>
+        </div>
+
+        <div class="section2_4box">
+        <div class="section2_boxes2">
+            <div class="section2_box1">
+                <div class="box1_img">
+                    <img src="Images/pic1.jpg" width="200px" height="200px" class="img_box1">
+                </div>
+                <div class="box1_text">
+                    <h3 class="h3_box1">Dr. Marya Smith</h3>
+                    <p class="p_box1">MDS - Periodontology and Oral Implantology</p>
+                    <p class="p1_box1">Dental</p>
+                    <div class="icon_box1">
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>
+                        <p class="p2_box1">Georgia, USA</p>
+                    </div>
+
+                    <div class="star_p">
+                    <div class="stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                    </div>
+                    <div class="p3_box1">
+                        <p>(124)</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section2_box1">
+                    <div class="box1_img">
+                        <img src="Images/pic2.jpg" width="200px" height="200px" class="img_box1">
+                    </div>
+                    <div class="box1_text">
+                        <h3 class="h3_box1">Dr. Darren Elder</h3>
+                        <p class="p_box1">MDS - Periodontology and Oral Implantology</p>
+                        <p class="p1_box1">Dental</p>
+                        <div class="icon_box1">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p class="p2_box1">Georgia, USA</p>
+                        </div>
+    
+                        <div class="star_p">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                        </div>
+                        <div class="p3_box1">
+                            <p>(124)</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
         </div>
 
 
-        <!--Home Page Section 3-->
-        <p class="visa_cat">VISA CATEGORIES</p>
-        <div class="underline"></div>
-        <h1 class="h1_hpsec3">Comprehensive Immigration</h1>
-        <h1 class="h2_hpsec3">Services</h1>
-        <div id="carouselExampleControls" class="carousel slide car_border" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="container overflow-hidden">
-                <div class="row gx-3">
-                  <div class="col">
-                    <div>
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-1.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/education.png" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Student Visa</h5>
-                          <p class="p_card1">Forsee the pain and trouble</p>
-                          <p class="p1_card1">that are bound to ensue</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
+
+        <div class="section2_boxes21">
+                <div class="section2_box1">
+                    <div class="box1_img">
+                        <img src="Images/pic3.jpg" width="200px" height="200px" class="img_box1">
                     </div>
-                  </div>
-                  <div class="col test_css">
-                    <div >
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width:265px;">
-                          <img src="Images/visa-2.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
+                    <div class="box1_text">
+                        <h3 class="h3_box1">Dr. David Chua</h3>
+                        <p class="p_box1">MDS - Periodontology and Oral Implantology</p>
+                        <p class="p1_box1">Dental</p>
+                        <div class="icon_box1">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <p class="p2_box1">Georgia, USA</p>
                         </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/family.svg" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Residence Visa</h5>
-                          <p class="p_card1">Desire that they can forsee</p>
-                          <p class="p1_card1">trouble bound ensue</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
+    
+                        <div class="star_p">
+                        <div class="stars">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
                         </div>
-                      </div>
+                        <div class="p3_box1">
+                            <p>(124)</p>
+                        </div>
+                        </div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div >
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-3.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/corporate.svg" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Business Visa</h5>
-                          <p class="p_card1">Equally blame belongs those</p>
-                          <p class="p1_card1">who fail in their duty</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-4.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/tourist.svg" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Tourist Visa</h5>
-                          <p class="p_card1">Sponsoring and managing</p>
-                          <p class="p1_card1">work Immigration and Visa</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
+    
+                <div class="section2_box1">
+                        <div class="box1_img">
+                            <img src="Images/pic4.jpg" width="200px" height="200px" class="img_box1">
+                        </div>
+                        <div class="box1_text">
+                            <h3 class="h3_box1">Dr. Zuliya Wood</h3>
+                            <p class="p_box1">MDS - Periodontology and Oral Implantology</p>
+                            <p class="p1_box1">Dental</p>
+                            <div class="icon_box1">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <p class="p2_box1">Georgia, USA</p>
+                            </div>
+        
+                            <div class="star_p">
+                            <div class="stars">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                            <div class="p3_box1">
+                                <p>(124)</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    <!--Section-2-->
+
+    <!--Section 3-->
+    <div class="section2_text">
+            <p class="p_section2">CATEGORIES</p>
+            <h1 class="h1_section2">Top Rated Doctors</h1>
+            <p class="p1_section2">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text</p>
+            <p class="p1_section2">ever since the when an printer took.</p>
+    </div>
+
+    <div class="ten_boxes">
+        <div class="five_boxes">
+            <div class="five_first">
+            <div class="five_box1">
+                <div><img src="Images/1.png" class="fivebox_img1"></div>
+            </div>
+            <div class="fivebox_text">
+                <h3 class="h3_fb">Primary Care</h3>
+                <p class="p_fb">24 Listing</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="five_boxes">
+                <div class="five_first">
+                <div class="five_box1">
+                    <div><img src="Images/2.png" class="fivebox_img2"></div>
+                </div>
+                <div class="fivebox_text">
+                    <h3 class="h3_fb">Cardiology</h3>
+                    <p class="p_fb">27 Listing</p>
+                </div>
+            </div>
             </div>
 
-
-            <div class="carousel-item">
-              <div class="container overflow-hidden">
-                <div class="row gx-3">
-                  <div class="col">
-                    <div>
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-1.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/education.png" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Student Visa</h5>
-                          <p class="p_card1">Forsee the pain and trouble</p>
-                          <p class="p1_card1">that are bound to ensue</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
+            <div class="five_boxes">
+                    <div class="five_first">
+                    <div class="five_box1">
+                        <div><img src="Images/3.png" class="fivebox_img2"></div>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-2.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/family.svg" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Residence Visa</h5>
-                          <p class="p_card1">Forsee the pain and trouble</p>
-                          <p class="p1_card1">that are bound to ensue</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
+                    <div class="fivebox_text">
+                        <h3 class="h3_fb">MRI Resonance</h3>
+                        <p class="p_fb">47 Listing</p>
                     </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-3.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/corporate.svg" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Business Visa</h5>
-                          <p class="p_card1">Forsee the pain and trouble</p>
-                          <p class="p1_card1">that are bound to ensue</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col">
-                    <div>
-                      <div class="col card_hover">
-                        <div class="card img_card" style="width: 265px;">
-                          <img src="Images/visa-4.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title read_more">Read more ---></h5>
-                          </div>
-                        </div>
-                        <div class="card img_card1" style="width: 265px;">
-                          <div class="hidden_card">
-                            <img src="Images/tourist.svg" width="80px;">
-                          </div>
-                          <h5 class="sv_css">Tourist Visa</h5>
-                          <p class="p_card1">Forsee the pain and trouble</p>
-                          <p class="p1_card1">that are bound to ensue</p>
-                          <div class="card-body read_more1">
-                            <h5 class="card-title">Read more</h5>
-                            <h5 class="card-title">--></h5>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
-              </div>
+                </div>
+
+                <div class="five_boxes">
+                        <div class="five_first">
+                        <div class="five_box1">
+                            <div><img src="Images/4.png" class="fivebox_img2"></div>
+                        </div>
+                        <div class="fivebox_text">
+                            <h3 class="h3_fb">Blood Test</h3>
+                            <p class="p_fb">32 Listing</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="five_boxes">
+                        <div class="five_first">
+                        <div class="five_box1">
+                            <div><img src="Images/5.png" class="fivebox_img2"></div>
+                        </div>
+                        <div class="fivebox_text">
+                            <h3 class="h3_fb">Laboratory</h3>
+                            <p class="p_fb">45 Listing</p>
+                        </div>
+                    </div>
+                </div>
+    </div>
+
+    <div class="ten_boxes1">
+            <div class="five_boxes">
+                <div class="five_first">
+                <div class="five_box1">
+                    <div><img src="Images/6.png" class="fivebox_img1"></div>
+                </div>
+                <div class="fivebox_text">
+                    <h3 class="h3_fb1">Dentistry</h3>
+                    <p class="p_fb">78 Listing</p>
+                </div>
+            </div>
+            </div>
+    
+            <div class="five_boxes">
+                    <div class="five_first">
+                    <div class="five_box1">
+                        <div><img src="Images/7.png" class="fivebox_img2"></div>
+                    </div>
+                    <div class="fivebox_text">
+                        <h3 class="h3_fb2">X-Ray</h3>
+                        <p class="p_fb">45 Listing</p>
+                    </div>
+                </div>
+                </div>
+    
+                <div class="five_boxes">
+                        <div class="five_first">
+                        <div class="five_box1">
+                            <div><img src="Images/8.png" class="fivebox_img2"></div>
+                        </div>
+                        <div class="fivebox_text">
+                            <h3 class="h3_fb3">Piscologist</h3>
+                            <p class="p_fb">47 Listing</p>
+                        </div>
+                    </div>
+                    </div>
+    
+                    <div class="five_boxes">
+                            <div class="five_first">
+                            <div class="five_box1">
+                                <div><img src="Images/9.png" class="fivebox_img2"></div>
+                            </div>
+                            <div class="fivebox_text">
+                                <h3 class="h3_fb">Chiropractor</h3>
+                                <p class="p_fb">78 Listing</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="five_boxes">
+                            <div class="five_first">
+                            <div class="five_box1">
+                                <div><img src="Images/10.png" class="fivebox_img2"></div>
+                            </div>
+                            <div class="fivebox_text">
+                                <h3 class="h3_fb">Pediatrician</h3>
+                                <p class="p_fb">41 Listing</p>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+        <hr>
+
+        <!--Section4-->
+        <div class="section2_text1">
+                <p class="p_section2">WORKING</p>
+                <h1 class="h1_section2">How MFine Works</h1>
+                <p class="p1_section2">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text</p>
+                <p class="p1_section2">ever since the when an printer took.</p>
+        </div>
+        <div class="boxes3">
+        <div class="three_boxes">
+            <div class="three_one">
+               <img src="Images/1 (1).png" class="box3_img">
+            </div>
+            <div class="box3_text">
+                <h3 class="h3_bt">Find a Local Physiotherapist</h3>
+                <p class="p_bt">This helps us determine which Taskers are</p>
+                <p class="p_bt">best for your job</p>
+            </div>
+        </div>
+
+        <div class="three_boxes1">
+                <div class="three_one">
+                   <img src="Images/2 (1).png" class="box3_img">
+                </div>
+                <div class="box3_text">
+                    <h3 class="h3_bt">Choose Your Schedule</h3>
+                    <p class="p_bt">This helps us determine which Taskers are</p>
+                    <p class="p_bt">best for your job</p>
+                </div>
             </div>
 
             
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-        
+        <div class="three_boxes1">
+                <div class="three_one">
+                   <img src="Images/3 (1).png" class="box3_img">
+                </div>
+                <div class="box3_text">
+                    <h3 class="h3_bt">Make a Payment</h3>
+                    <p class="p_bt">This helps us determine which Taskers are</p>
+                    <p class="p_bt">best for your job</p>
+                </div>
+            </div>
 
-        <!--Home Page Section 4-->
-        <div class="row sec4_bg">
-          <div class="col-6 col-lg-6 col-md-12 col-sm-12 img_sec4">
-            <div class="tb_sec4">
-              <p class="p_tbsec4">ABOUT OUR AGENCY</p>
-              <div class="underline1"></div>
-              <h1 class="h1_tbsec4">Leading</h1>
-              <h1 class="h2_tbsec4">Immigration</h1>
-              <h1 class="h2_tbsec4">Consulting Firm</h1>
-              <p class="p1_tbsec4">Reliable Service Since 1985!...</p>
-              <p class="p2_tbsec4">All this mistaken idea denouncing pleasure and</p>
-              <p class="p3_tbsec4">praising pain was born will give you complete</p>
-              <p class="p3_tbsec4">account of the system, and expound the actuals</p>
-              <p class="p3_tbsec4">teach-ngs of the great explorer of the truth, the</p>
-              <p class="p3_tbsec4">master-builder human happiness.</p>
-              <button class="btn_tbsec4">MORE DETAILS ></button>
-            </div>
-          </div>
-          <div class="col-6 col-lg-6 col-md-12 col-sm-12 box_sec4">
-            <div class="container overflow-hidden boxes_css">
-              <div class="row gy-5">
-                <div class="col-6">
-                  <div class="p-3 border bg-light box1">
-                    <h5>Offices Worldwide</h5>
-                    <h1 class="h_office">25+</h1>
-                    <p class="p_office">Moment so blinded by desire.</p>
-                    <p class="p1_office">LOCATIONS ></p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="p-3 border bg-light box1">
-                    <h5>Team Members</h5>
-                    <h1 class="h_office">468+</h1>
-                    <p class="p_office">Complete account of system.</p>
-                    <p class="p1_office">MEET OUR TEAM ></p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="p-3 border bg-light box1">
-                    <h5>Visa Processed</h5>
-                    <h1 class="h_office">9.7k</h1>
-                    <p class="p_office">To take a all trivial example.</p>
-                    <p class="p1_office">CASE STUDIES ></p>
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="p-3 border bg-light box1">
-                    <h5>Satisfied Clients</h5>
-                    <h1 class="h_office">99%</h1>
-                    <p class="p_office">Ever undertake labo exercise.</p>
-                    <p class="p1_office">TESTIMONIALS ></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-        
-        <!--Home Page Section 5-->
-        <div class="row hp_sec5">
-          <div class="col-6 col-lg-6 col-md-12 col-sm-12 img_hpsec5">
-            <img src="Images/icon-16.png" width="250px" height="150px" class="icon16">
-            <img src="Images/statistics-1.png" width="200px" height="200px" class="stats">
-          </div>
-          <div class="col-6 col-lg-6 col-md-12 col-sm-12  text_hpsec5">
-            <p class="p_hpsec5">COMPANY REPORTS & STATISTICS</p>
-            <div class="underline2"></div>
-            <h1 class="h1_hpsec5">The Impact of</h1>
-            <h1 class="h2_hpsec5">Our Competitive Efforts</h1>
-            <p class="p1_hpsec5">Denouncing pleasure and praising pain was born and will give you complete</p>
-            <p class="p2_hpsec5">great explorer of the truth the master-builder.</p>
-            <div class="student_visa">
-             <h5 class="h_sv">Student Visa</h5> 
-             <h5 class="h1_sv">78%</h5>
+        <!--Section4-->
+
+        <!--Section 5-->
+        <div class="section5_bg">
+            <p class="p_section5">REGISTRATION</p>
+            <h1 class="h1_section5">Want to Make an Appointment</h1>
+            <h1 class="h1_section5">Easily</h1>
+            <p class="p1_section51">Regain your health and mobility. Leave your pain behind. Do the things you love. Our team of health</p>
+            <p class="p1_section5">professionals is dedicated to providing you with the best medical solutions for your injury or</p>
+            <p class="p1_section5">condition. Our specialists collaborate to find pain treatments</p>
+            <button class="btn_section5">Book Now</button>
+        </div>
+        <img src="Images/heart.png" class="heart_image">
+        <!--Section 5-->
+
+        <!--Section 6-->
+        <div class="section6">
+            <div class="imgpart_s6">
+            <img src="Images/large-pic1.png" class="imgcss_section6">
             </div>
-            <div class="underline3"></div>
-            <div class="residence_visa">
-              <h5 class="h_sv">Residence Visa</h5> 
-              <h5 class="h1_sv">92%</h5>
-             </div>
-             <div class="underline4"></div>
-             <div class="residence_visa">
-              <h5 class="h_sv">Business Visa</h5> 
-              <h5 class="h1_sv">65%</h5>
-             </div>
-             <div class="underline5"></div>
-             <div class="residence_visa">
-              <h5 class="h_sv">Tourist Visa</h5> 
-              <h5 class="h1_sv">86%</h5>
-             </div>
-             <div class="underline6"></div>
-             <div class="pdf1">
-              <div class="pdf_box">
-                <i class="fa fa-file-pdf-o fa-lg pdfo" aria-hidden="true"></i>
-              </div>
-              <div class="abc">
-                <a href="#" class="download_link">DOWNLOAD</a>
-                <h6>Report for the Year 2020</h6>
-              </div>
-             </div>
-          </div>
+            
+            <div class="section6_text">
+                <h1 class="h1_section6">We Can Help You Find <span>Doctor</span></h1>
+                <h1 class="h1_section6">And <span>Dentists</span> by City</h1>
+                <p class="p1_section6">Lorem Ipsum has been the industry's standard dummy text ever since the when an unknown</p>
+                <p class=p_section6>printer took a galley of type and scrambled it to make specimen been the industry's standard.</p>
+                <div class="input_icon">
+                <input type="text" name="text_input" placeholder="Find Doctors & Dentists" value="">
+                <i class="fa fa-search mg" aria-hidden="true"></i>
+            </div>
+            </div>
         </div>
 
-        <!--Home Page Section 6-->
-        <div class="sec6_bg">
-        <p class="visa_c">COUNTRIES WE OFFER</p>
-        <div class="underline"></div>
-        <h1 class="h1_hpsec3">Immigration & Visa Services</h1>
-        <h1 class="h2_hpsec3">Following Countries</h1>
-        <div class="container px-4 box4">
-            <div class="row gx-5">
-              <div class="col">
-               <div class="p-3 txt_css"><i class="fa fa-book" aria-hidden="true"></i> Education</div>
-              </div>
-              <div class="col">
-                <div class="p-3 txt1_css"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Immigration</div>
-              </div>
-              <div class="col">
-                  <div class="p-3 txt1_css"><i class="fa fa-briefcase" aria-hidden="true"></i> Business</div>
+        <div class="boxes3_section6">
+            <div class="s6_box2">
+                <div class="three_one2">
+                    <img src="Images/1 (2).png" class="box3_imgs6">
                 </div>
-                <div class="col">
-                    <div class="p-3 txt1_css"><i class="fa fa-camera" aria-hidden="true"></i> Tourist</div>
-                  </div>
+                <h1 class="h1_sections6">432+</h1>
+                <h3 class="h3_bts6">Doctor</h3>
+            </div>
+
+            <div class="s6_box1">
+                    <div class="three_one1">
+                        <img src="Images/2 (2).png" class="box3_imgs6">
+                    </div>
+                    <h1 class="h1_sections6">127+</h1>
+                    <h3 class="h3_bts61">Customers</h3>
+                </div>
+
+                <div class="s6_box1">
+                        <div class="three_one1">
+                            <img src="Images/3 (2).png" class="box3_imgs6">
+                        </div>
+                        <h1 class="h1_sections6">752+</h1>
+                        <h3 class="h3_bts62">Hospital</h3>
+                    </div>
+
+                    <div class="s6_box1">
+                            <div class="three_one1">
+                                <img src="Images/5.png" class="box3_imgs6">
+                            </div>
+                            <h1 class="h1_sections6">432+</h1>
+                            <h3 class="h3_bts6">Labs</h3>
+                        </div>
+        </div>
+        <!--Section 6-->
+
+        <!--Section 7-->
+        <div class="section71">
+                <div class="section2_text1">
+                        <p class="p_section2">FAQS FOR PATIENTS</p>
+                        <h1 class="h1_section2">Frequently Ask Questions?</h1>
+                        <p class="p1_section2">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text</p>
+                        <p class="p1_section2">ever since the when an printer took.</p>
+                </div>
+                <div class="boxes6">
+                    <div class="border_section71">
+                    <h3 class="h3_section7">Can I book an appointment on behalf of someone else?</h3>
+                    <div class="p_border">
+                    <p class="p_section71">Best service are provide us. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                    <p class="p_section7">industry's standard dummy.</p>
+                    </div>
+                    </div>
+
+                    <div class="border_section7">
+                            <h3 class="h3_section7">Do I need a referral to see a Physiotherapist?</h3>
+                            <div class="p_border">
+                            <p class="p_section71">Best service are provide us. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                            <p class="p_section7">industry's standard dummy.</p>
+                            </div>
+                    </div>
+
+                    <div class="border_section7">
+                            <h3 class="h3_section7">Can I book an appointment on behalf of someone else?</h3>
+                            <div class="p_border">
+                            <p class="p_section71">Best service are provide us. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                            <p class="p_section7">industry's standard dummy.</p>
+                            </div>
+                    </div>
+
+                    <div class="border_section7">
+                        <h3 class="h3_section7">Do you have Venue options for appointments?</h3>
+                        <div class="p_border">
+                        <p class="p_section71">Best service are provide us. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                        <p class="p_section7">industry's standard dummy.</p>
+                        </div>
+                </div>
+                
+                <div class="border_section7">
+                    <h3 class="h3_section7">Can I book an appointment on behalf of someone else?</h3>
+                    <div class="p_border">
+                    <p class="p_section71">Best service are provide us. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                    <p class="p_section7">industry's standard dummy.</p>
+                    </div>
+            </div>
+
+            <div class="border_section7">
+                <h3 class="h3_section7">Do I need a referral to see a Physiotherapist?</h3>
+                <div class="p_border">
+                <p class="p_section71">Best service are provide us. simply dummy text of the printing and typesetting industry. Lorem Ipsum has been</p>
+                <p class="p_section7">industry's standard dummy.</p>
+                </div>
+        </div>
+                </div>
+        </div>
+        <!--Section 7-->
+
+        <!--Section 8_-->
+            <div class="section2_text1">
+                <p class="p_section2">TESTIMONIALS</p>
+                <h1 class="h1_section2">What People Say</h1>
+                <p class="p1_section2">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text</p>
+                <p class="p1_section2">ever since the when an printer took.</p>
+            </div>
+
+            <div class="section8">
+                <div class="leftimg_s8">
+                    <img src="Images/img3.png" class="img3_s8">
+                    <div class="small_circle"></div>
+                </div>
+                <div class="text_s8">
+                    <p class="p_section8">Regain your health and mobility. Leave your pain behind. Do the things you love. Our team of health</p>
+                    <p class="p_section8">professionals is dedicated to providing you with the best medical solutions for your or injury</p>
+                    <p class="p_section8">condition. Our specialists collaborate to find pain treatments</p>
+                    <h3 class="h3_s8">DAVID CHUA</h3>
+                    <p class="p_s8">Designer</p>
+                </div>
+
+                <div class="rightimg_s8">
+                        <img src="Images/img3.png" class="img31_s8">
+                        <div class="small_circle"></div>
+                    </div>
             </div>
             <hr>
-          </div>
+        <!--Section 8_-->
 
-          <div class="container overflow-hidden c_options">
-            <div class="row gy-5">
-              <div class="col-4 col-lg-4 col-md-6 col-sm-12 f_box1">
-                <div class="flag1">
-                <div class="p-3 border uk">
-                  <div class="flag_text">
-                    <div class="uk_img"><img src="Images/110-united-kingdom.svg" width="62px" height="62px"></div>
-                    <div class="f_text">
-                      <p class="fp1">The same as saying shrinking from all...</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="flag2">
-                  <div class="p-3 border uk2">
-                    <div class="flag_text">
-                      <div class="uk_img"><img src="Images/110-united-kingdom.svg" width="62px" height="62px"></div>
-                      <div class="f_text">
-                        <h5>United Kingdom</h5>
-                        <p class="fp2">The same as saying...</p>
-                      </div>
-                    </div>
-                  </div>
-                  </div>
-              </div>
-
-
-              <div class="col-4 col-lg-4 col-md-6 col-sm-12 f_box1">
-                  <div class="flag1">
-                      <div class="p-3 border uk">
-                        <div class="flag_text">
-                          <div class="uk_img"><img src="Images/067-bahamas.svg" width="62px" height="62px"></div>
-                          <div class="f_text">
-                            <p class="fp1">The same as saying shrinking from all...</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-      
-                    <div class="flag2">
-                        <div class="p-3 border uk2">
-                          <div class="flag_text">
-                            <div class="uk_img"><img src="Images/067-bahamas.svg" width="62px" height="62px"></div>
-                            <div class="f_text">
-                              <h5>Bahamas</h5>
-                              <p class="fp2">The same as saying...</p>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-              </div>
-              <div class="col-4 col-lg-4 col-md-6 col-sm-12 f_box1">
-                  <div class="flag1">
-                      <div class="p-3 border uk">
-                        <div class="flag_text">
-                          <div class="uk_img"><img src="Images/195-united-arab-emirates.svg" width="62px" height="62px"></div>
-                          <div class="f_text">
-                            <p class="fp1">The same as saying shrinking from all...</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-      
-                    <div class="flag2">
-                        <div class="p-3 border uk2">
-                          <div class="flag_text">
-                            <div class="uk_img"><img src="Images/195-united-arab-emirates.svg" width="62px" height="62px"></div>
-                            <div class="f_text">
-                              <h5>UAE</h5>
-                              <p class="fp2">The same as saying...</p>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-              </div>
-              <div class="col-4 col-lg-4 col-md-6 col-sm-12 f_box1">
-                  <div class="flag1">
-                      <div class="p-3 border uk">
-                        <div class="flag_text">
-                          <div class="uk_img"><img src="Images/186-united-states.svg" width="62px" height="62px"></div>
-                          <div class="f_text">
-                            <p class="fp1">The same as saying shrinking from all...</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-      
-                    <div class="flag2">
-                        <div class="p-3 border uk2">
-                          <div class="flag_text">
-                            <div class="uk_img"><img src="Images/186-united-states.svg" width="62px" height="62px"></div>
-                            <div class="f_text">
-                              <h5>United States</h5>
-                              <p class="fp2">The same as saying...</p>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-              </div>
-              <div class="col-4 col-lg-4 col-md-6 col-sm-12 f_box1">
-                  <div class="flag1">
-                      <div class="p-3 border uk">
-                        <div class="flag_text">
-                          <div class="uk_img"><img src="Images/055-india.svg" width="62px" height="62px"></div>
-                          <div class="f_text">
-                            <p class="fp1">The same as saying shrinking from all...</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-      
-                    <div class="flag2">
-                        <div class="p-3 border uk2">
-                          <div class="flag_text">
-                            <div class="uk_img"><img src="Images/055-india.svg" width="62px" height="62px"></div>
-                            <div class="f_text">
-                              <h5>India</h5>
-                              <p class="fp2">The same as saying...</p>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-              </div>
-              <div class="col-4 col-lg-4 col-md-6 col-sm-12 f_box1">
-                  <div class="flag1">
-                      <div class="p-3 border uk">
-                        <div class="flag_text">
-                          <div class="uk_img"><img src="Images/134-bangladesh.svg" width="62px" height="62px"></div>
-                          <div class="f_text">
-                            <p class="fp1">The same as saying shrinking from all...</p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-      
-                    <div class="flag2">
-                        <div class="p-3 border uk2">
-                          <div class="flag_text">
-                            <div class="uk_img"><img src="Images/134-bangladesh.svg" width="62px" height="62px"></div>
-                            <div class="f_text">
-                              <h5>Bangladesh</h5>
-                              <p class="fp2">The same as saying...</p>
-                            </div>
-                          </div>
-                        </div>
-                        </div>
-              </div>
+        <!--Section9-->
+        <div class="section2_text1">
+                <p class="p_section2">SHOP</p>
+                <h1 class="h1_section2">Our Products</h1>
+                <p class="p1_section2">Lorem Ipsum is simply dummy text of the printing and typesetting industry the standard dummy text</p>
+                <p class="p1_section2">ever since the when an printer took.</p>
             </div>
-          </div>
-          <p class="ps6_last">READ MORE ></p>
-        </div>
 
-        <!--Home Page Section 7-->
-        <p class="visa_cat">EXPERT TEAM MEMBERS</p>
-        <div class="underline"></div>
-        <h1 class="h1_hpsec3">Our Team at Your Service</h1>
-        <div class="container overflow-hidden team_com">
-            <div class="row gx-4">
-              <div class="col">
-               <div class="border bg-light timg1">
+            <div class="s5_product">
+                    <h1 class="h1_s5">Related products</h1>
+                    <div class="boxes_s5">
+                        <div class="boxes2_s5">
+                         <div class="box1_s5">
+                             <div class="img_part">
+                             <p class="p_boxs5">NEW</p>
+                             <div class="hover_effect">
+                                 <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                 <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                 <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                             </div>
+                             </div>
+                             <h3 class="h3_box1s5">N-95 Mask</h3>
+                             <p class="p3_box1s5">$299.00 289.00</p>
+                         </div>
+                         <div class="box1_s5">
+                                 <div class="img_part1">
+                                 <p class="p_boxs5">NEW</p>
+                                 <div class="hover_effect">
+                                     <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                     <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                     <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                 </div>
+                                 </div>
+                                 <h3 class="h3_box1s5">Gloves</h3>
+                                 <p class="p3_box1s5">$299.00 289.00</p>
+                             </div>
                  
-                   <img src="Images/img_01-245x330.jpg" width="250px" height="350px" class="img_of">
-                   
-                </div>
-               <h4 class="alice">Alice Bella</h4>
-               <p class="p_alice">FINANCIAL DEPARTMENT</p>
-              </div>
-              <div class="col">
-                <div class="border bg-light timg1">
-                  <img src="Images/img_05-245x330.jpg" width="250px" height="350px" class="img_of">
-                </div>
-                <h4 class="alice">Finn Hudson</h4>
-               <p class="p_alice">CAREER CONSULTANTCY</p>
-              </div>
-              <div class="col">
-                <div class="border bg-light timg1">
-                  <img src="Images/img_03-245x330.jpg" width="250px" height="350px" class="img_of">
-                </div>
-  
-                <h4 class="alice">Hazel Eliana</h4>
-                <p class="p_alice">IMMIGRATION CONSULTANTS</p>
-              </div>
-              <div class="col">
-                  <div class="border bg-light timg1">
-                    <img src="Images/img_08-245x330.jpg" width="250px" height="350px" class="img_of">
-                  </div>
-                  <h4 class="alice">Reggie Hunter</h4>
-                  <p class="p_alice">FOUNDER & MANAGER</p>
-              </div>
-            </div>
-          </div>
-          
-    
-          <!--Home Page Section 8-->
-          <div class="sec8_bg">
-            <img src="Images/shape-15.png" class="shape15">
-            <img src="Images/quote-2.png" class="quote2">
-            <div class="container">
-                <div id="carouselExampleIndicators" class="carousel slide car_home" data-bs-ride="carousel">
-                    
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="Images/testimonial-1.jpg" class="testimonial1">
-                        <div class="stars">
-                            <i class="fa fa-star star" aria-hidden="true"></i>
-                            <i class="fa fa-star star" aria-hidden="true"></i>
-                            <i class="fa fa-star star" aria-hidden="true"></i>
-                            <i class="fa fa-star-o star" aria-hidden="true"></i>
-                            <i class="fa fa-star-o star" aria-hidden="true"></i>
-                            <h3 class="smooth_h">Smooth and Efficient Service</h3>
-                            <p class="smooth_p">Quisque Consultancy is definitely a highly recommended canadian</p>
-                            <p class="smooth1_p">migration agency. A big applause and very grateful to Mr.Richardson for efforts</p>
-                            <p class="smooth2_p">and assistance.</p>
-                            <h3 class="smooth_h1">Silvester Scott</h3>
-                            <p class="smooth3_p">Netherland</p>
+                             <div class="box1_s5">
+                                     <div class="img_part2">
+                                     <p class="p_boxs5">NEW</p>
+                                     <div class="hover_effect">
+                                         <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                         <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                         <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                     </div>
+                                     </div>
+                                     <h3 class="h3_box1s5">Vaccine</h3>
+                                     <p class="p3_box1s5">$299.00 289.00</p>
+                                 </div>
+                                 <div class="box1_s5">
+                                         <div class="img_part3">
+                                         <p class="p_boxs5">NEW</p>
+                                         <div class="hover_effect">
+                                             <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                             <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                         </div>
+                                         </div>
+                                         <h3 class="h3_box1s5">Sanitizer</h3>
+                                         <p class="p3_box1s5">$299.00 289.00</p>
+                                     </div>
                         </div>
-                      </div>
-                      <div class="carousel-item">
-                          <img src="Images/testimonial-2.jpg" class="testimonial1">
-                          <div class="stars">
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star-o star" aria-hidden="true"></i>
-                              <h3 class="smooth_h">Thankyou Immigo for service</h3>
-                              <p class="smooth_p">Quisque Consultancy is definitely a highly recommended canadian</p>
-                              <p class="smooth1_p">migration agency. A big applause and very grateful to Mr.Richardson for efforts</p>
-                              <p class="smooth2_p">and assistance.</p>
-                              <h3 class="smooth_h1">Nora Penelope</h3>
-                              <p class="smooth3_p">Switzerland</p>
-                          </div>
-                      </div>
-                      <div class="carousel-item">
-                          <img src="Images/testimonial-3.jpg" class="testimonial1">
-                          <div class="stars">
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <i class="fa fa-star star" aria-hidden="true"></i>
-                              <h3 class="smooth_h">Immigo highly recommended...</h3>
-                              <p class="smooth_p">Quisque Consultancy is definitely a highly recommended canadian</p>
-                              <p class="smooth1_p">migration agency. A big applause and very grateful to Mr.Richardson for efforts</p>
-                              <p class="smooth2_p">and assistance.</p>
-                              <h3 class="smooth_h1">Arlo Sebastian</h3>
-                              <p class="smooth3_p">Australia</p>
-                          </div>
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev prev_css" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next next_css" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>
+                 
+                 
+                        <div class="boxes2_s5">
+                             <div class="box1_s5">
+                                 <div class="img_part4">
+                                 <p class="p_boxs5">NEW</p>
+                                 <div class="hover_effect">
+                                     <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                     <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                     <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                 </div>
+                                 </div>
+                                 <h3 class="h3_box1s5">Stethoscope</h3>
+                                 <p class="p3_box1s5">$299.00 289.00</p>
+                             </div>
+                             <div class="box1_s5">
+                                     <div class="img_part5">
+                                     <p class="p_boxs5">NEW</p>
+                                     <div class="hover_effect">
+                                         <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                         <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                         <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                     </div>
+                                     </div>
+                                     <h3 class="h3_box1s5">Oximeter</h3>
+                                     <p class="p3_box1s5">$299.00 289.00</p>
+                                 </div>
+                     
+                                 <div class="box1_s5">
+                                         <div class="img_part6">
+                                         <p class="p_boxs5">NEW</p>
+                                         <div class="hover_effect">
+                                             <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                             <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                             <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                         </div>
+                                         </div>
+                                         <h3 class="h3_box1s5">Medical Kit</h3>
+                                         <p class="p3_box1s5">$299.00 289.00</p>
+                                     </div>
+                                     <div class="box1_s5">
+                                             <div class="img_part7">
+                                             <p class="p_boxs5">NEW</p>
+                                             <div class="hover_effect">
+                                                 <i class="fa fa-eye eye" aria-hidden="true"></i>
+                                                 <i class="fa fa-heart-o heart_t" aria-hidden="true"></i>
+                                                 <i class="fa fa-shopping-cart cart" aria-hidden="true"></i>
+                                             </div>
+                                             </div>
+                                             <h3 class="h3_box1s5">OT Dress</h3>
+                                             <p class="p3_box1s5">$299.00 289.00</p>
+                                     </div>
+                            </div>
+                 </div>
+                 </div>
+        <!--Section9-->
+        <!--Footer-->
+<div class="footer">
+        <div class="footer_form">
+            <div>
+            <h2 class="h1_footer">Subscribe Our Newsletter</h2>
             </div>
-            <div class="container">
-              <div class="youtube_link">
-                  
-                      <button class="btn_play1" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                          <img src="Images/play.png" width="60px" height="50px" class="play_arrow1">
-                      </button>
-                      
-                      <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-              <iframe width="700" height="526" src="https://www.youtube.com/embed/nfP5N9Yc72A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
+            <div class="ib_footer">
+                <input type="email" placeholder="Enter your Email">
+                <button>Submit</button>
+            </div>
+        </div>
+    
+        <div class="footer_lists">
+            <div class="footer_list1">
+                <h2 class="h2_footerlist1">About</h2>
+                <p class="p_footerlist12">The printing and typesetting industry Ipsum</p>
+                <p class="p_footerlist1">has been the industry's thanks to your</p>
+                <p class="p_footerlist1">passion, hard work creativity</p>
+                <div class="footer_icons">
+                    <i class="fa fa-twitter pqr" aria-hidden="true"></i>
+                    <i class="fa fa-facebook pqr2" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin pqr3" aria-hidden="true"></i>
+                    <i class="fa fa-instagram pqr3" aria-hidden="true"></i>
+                </div>
+            </div>
+    
+            <div class="footer_list2">
+                <h2 class="h2_footerlist2">Quick Links</h2> 
+                <ul>
+                    <li>About</li>
+                    <li>Lab Test</li>
+                    <li>Medicine</li>
+                    <li>Blog</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+    
+            <div class="footer_list2">
+                    <h2 class="h2_footerlist2">Quick Links</h2> 
+                    <ul>
+                        <li>About</li>
+                        <li>Lab Test</li>
+                        <li>Medicine</li>
+                        <li>Blog</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+    
+                <div class="footer_list2">
+                        <h2 class="h2_footerlist2">Community</h2> 
+                        <ul>
+                            <li>Australia</li>
+                            <li>+41 232 525 5257</li>
+                            <li>+41 856 525 5369</li>
+                            <li>hello@Servicefinder.com</li>
+                            <li>hello@aontheme.com</li>
+                        </ul>
+                    </div>
+        </div>
+        <p class="f_lastp">Copyright 2022 | Aone Theme. All Rights Reserved</p>
     </div>
-  </div>
-</div>
-
-              </div>
-            </div>
-          </div>
-
-    
-
-
-           <!--Footer-->
-        <div class="row footer">
-            <div class="col-3 col-lg-3 col-md-6 col-sm-12 footer1">
-                <img src="Images/b-w-logo.svg" width="200px" height="150px">
-                <p class="p_footer">Indignation and dislike men who are so beguiled and demoralized by the charms of pleasure.</p>
-                <div class="footer_f">
-                <div class="u_footer"></div>
-                <h4 class="h_footer">United States</h4>
-                </div>
-                <p class="p1_footer">141, First Floor, 12 St Roots Terrace, Los Angeles 90010.</p>
-                <p class="p1_footer">Front Desk: +1-89-636-48018</p>
-                <p class="p2_footer">OUR ALL BRANCHES ></p>
-            </div>
-            <div class="col-3 col-lg-3 col-md-6 col-sm-12 footer1">
-                <h4 class="h_footer1">Quick Links</h4>
-                <div class="u_footer1"></div>
-                <p class="p_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> IELTS Coaching</p>
-                <p class="p1_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> TOFEL Coaching</p>
-                <p class="p1_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> PTE Coaching</p>
-                <p class="p1_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> OET Coaching</p>
-                <p class="p1_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> GRE Coaching</p>
-                <p class="p1_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> GMAT Coaching</p>
-                <p class="p1_footer1"><i class="fa fa-arrow-right" aria-hidden="true"></i> SAT Coaching</p>
-            </div>
-            <div class="col-3 col-lg-3 col-md-6 col-sm-12 footer2">
-                <h4 class="h_footer1">Trending Post</h4>
-                <div class="u_footer1"></div>
-                <p class="p2_footer1"><i class="fa fa-circle" aria-hidden="true"></i> IMMIGRATION</p>
-                <h4 class="h1_footer1">Project concepts or related queries should be</h4>
-                <p class="p3_footer1">March 4, 2022</p>
-                <p class="p4_footer1"><i class="fa fa-circle" aria-hidden="true"></i> IMMIGRATION</p>
-                <h4 class="h1_footer1">Covid-19 And Its Impact On UK Immigration</h4>
-                <p class="p3_footer1">February 5, 2022</p>
-            </div>
-            <div class="col-3 col-lg-3 col-md-6 col-sm-12 footer3">
-                <h4 class="h_footer1">Recent Projects</h4>
-                <div class="u_footer1"></div> 
-                    <div class="row g-2 footer1_g">
-                      <div class="col-4">
-                        <div class="f1_img">
-                            <img src="Images/e1.jpg" width="80px" height="80px" class="f_img">
-                            <div class="footer_overlay">
-                                <i class="fa fa-search-plus fa-lg mglass" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="f1_img">
-                            <img src="Images/e2.jpg" width="80px" height="80px">
-                            <div class="footer_overlay">
-                                <i class="fa fa-search-plus fa-lg mglass" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="f1_img">
-                            <img src="Images/e3.jpg" width="80px" height="80px">
-                            <div class="footer_overlay">
-                                <i class="fa fa-search-plus fa-lg mglass" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="f1_img">
-                            <img src="Images/e4.jpg" width="80px" height="80px">
-                            <div class="footer1_overlay">
-                                <i class="fa fa-search-plus fa-lg mglass" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="f1_img">
-                            <img src="Images/e6.jpg" width="80px" height="80px">
-                            <div class="footer1_overlay">
-                                <i class="fa fa-search-plus fa-lg mglass" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                      </div>
-                      <div class="col-4">
-                        <div class="f1_img">
-                            <img src="Images/e8.jpg" width="80px" height="80px">
-                            <div class="footer1_overlay">
-                                <i class="fa fa-search-plus fa-lg mglass" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                      </div>
-                    </div>
-            </div>
-        </div>
-        <div class="row footer_two">
-            <div class="col-6 col-lg-6 col-md-12 col-sm-12">
-                <p class="footertwo_p">© 2022 Immigo. All Rights Reserved.</p>
-                
-            </div>
-            <div class="col-6 col-lg-6 col-md-12 col-sm-12 d-flex">
-                <p class="footertwo_p1">Privacy Policy</p>
-                <p class="footertwo_p2">Term Of Use</p>
-                <p class="footertwo_p2">Support</p>
-            </div>
-        </div>
-
-<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="bootstrap/js/popper.min.js"></script>
+    <!--Footer-->
 </body>
 </html>
